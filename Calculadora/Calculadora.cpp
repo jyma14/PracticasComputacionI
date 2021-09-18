@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
    //Primero defino las variables
-  int a, b, c; // int a = 0,b = 0; float result = 0; string c;
+  int a, b, c; float result = 0; // int a = 0,b = 0; float result = 0; string c;
   do{
      //Parametros de entrada
     cout << "1. Sumar" << endl;
