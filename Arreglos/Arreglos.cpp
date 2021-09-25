@@ -68,7 +68,7 @@ array<float, LEN> LlenarArreglo()
         cin >> arreglito[i];
     }
     return arreglito;
-};
+}
 
 // Multiplica cada elemento del arreglo 'arreglo' por el factor 'mult'
 array<float, LEN> MultiplicarArreglo(array<float, LEN> arr, float factor)
