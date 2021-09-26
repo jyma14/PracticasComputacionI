@@ -2,8 +2,6 @@
 */ josh14mndz@gmail.com
 */ September 23, 2021
 
-
-
 #include <iostream>
 #include <array>
 
