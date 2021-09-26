@@ -1,6 +1,8 @@
-*/ Author: Joshelyn Yanori Mendoza Alfaro
-*/ josh14mndz@gmail.com
-*/ September 23, 2021
+/*
+ * Author: Joshelyn Yanori Mendoza Alfaro
+ * josh14mndz@gmail.com
+ * September 23, 2021
+ */
 
 #include <iostream>
 #include <array>
@@ -21,8 +23,8 @@ int main()
 
     char decision;
     array<float, LEN> arr = { 0 };// Inicializamos el arreglo con ceros como buena práctica
-    array<float, LEN> arrk = { 0 };
-    array<float, LEN> arrn = { 0 };
+    array<float, LEN> arrS = { 0 };
+    array<float, LEN> arrM = { 0 };
     arr = LlenarArreglo(); // Solicitamos al usuario que llene un arreglo y lo asignamos a nuestro arreglo principal
     cout << "Operación: ";
     cin >> decision;
@@ -37,19 +39,19 @@ int main()
         float factor;
         cout << "Factor: ";
         cin >> factor;  // Pedimos el factor a multiplicar
-        arrn = MultiplicarArreglo(arr, factor); // Multiplicamos nuestro arreglo principal por el factor y el resultado
+        arrM = MultiplicarArreglo(arr, factor); // Multiplicamos nuestro arreglo principal por el factor y el resultado
         // lo asignamos a nuestro arreglo principal.
         cout << "Resultado: ";
-        ImprimirArreglo(arrn);
+        ImprimirArreglo(arrM);
     }
         // Si se ingresa la suma
     else if (decision == '+') {
         array<float, LEN> arr2 = {0}; // Creamos el segundo arreglo y lo inicializamos en ceros
         arr2 = LlenarArreglo(); // Pedimos al usuario que llene otro arreglo y lo asignamos a nuetsro nuevo arreglo
-        arrk = SumarArreglos(arr, arr2); // Sumamos ambos arreglos elemento a elemento, y reasignamos el resutlado a nuestro
+        arrS = SumarArreglos(arr, arr2); // Sumamos ambos arreglos elemento a elemento, y reasignamos el resutlado a nuestro
         // arreglo principal
         cout << "Resultado: ";
-        ImprimirArreglo(arrk);
+        ImprimirArreglo(arrS);
     }
      // Imprimimos el resultado de la operación sobre el arreglo principal
 
