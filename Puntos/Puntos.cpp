@@ -1,6 +1,8 @@
-
-
-
+/*
+ * Author: Joshelyn Yanori Mendoza Alfaro
+ * josh14mndz@gmail.com
+ * October 13, 2021
+ */
 
 #include <iostream>
 #include <array>
