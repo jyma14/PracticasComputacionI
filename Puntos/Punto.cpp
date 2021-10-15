@@ -30,8 +30,8 @@ void Punto2D::Trasladar(float temp1, float temp2) {
 
 void Punto2D::RotarRespectoAlOrigen(float temp1){
     c = a;
-    a = c*cos(temp1*PI/180) - b*sen(temp1*PI/180);
-    b = c*sen(temp1*PI/180) + b*cos(temp1*PI/180);
+    a = c*cos(temp1*PI/180) - b*sin(temp1*PI/180);
+    b = c*sin(temp1*PI/180) + b*cos(temp1*PI/180);
 }
 
 void Punto2D::Escalar(float temp1, float temp2) {
