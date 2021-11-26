@@ -1,6 +1,7 @@
 # Author: Joshelyn Yanori Mendoza Alfaro
 # josh14mndz@gmail.com
 # November 17, 2021
+#
 
 # Le pido al usuario que ingrese el numero de ecuaciones a resolver.
 numEcuaciones = int(input("Número de ecuaciones: "))
